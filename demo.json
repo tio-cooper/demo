@@ -1,85 +1,85 @@
 {
-  "Site-ID": "1842",
-  "Site-Core": {
-    "Google": false,
-    "Microsoft" : false,
-    "Apple": false,
-    "Custom-Core": {
-      "CustomCore0" : false,
-      "CustomCore1" : false,
-      "CustomCore2" : false,
+    "Site-ID": "1842",
+    "Site-Core": {
+        "Google": false,
+        "Microsoft": false,
+        "Apple": false,
+        "Custom-Core": {
+            "CustomCore0": false,
+            "CustomCore1": false,
+            "CustomCore2": false
+        }
     },
-  },
-  "Site-Devices": {
-    "Windows": false,
-    "ChromeOS": false,
-    "MacOS": false,
-    "Custom-Devices": {
-      "CustomDevice0" : false,
-      "CustomDevice1" : false,
-      "CustomDevice2" : false,
+    "Site-Devices": {
+        "Windows": false,
+        "ChromeOS": false,
+        "MacOS": false,
+        "Custom-Devices": {
+            "CustomDevice0": false,
+            "CustomDevice1": false,
+            "CustomDevice2": false
+        }
     },
-  },
-  "Site-Printing": {
-    "PaperCut MF": false,
-    "PaperCut Hive": false,
-    "Printex": false,
-    "Dedicated-Print": false,
-    "Custom-Print": {
-      "CustomPrint0": false,
-      "CustomPrint1": false,
-      "CustomPrint2": false,
+    "Site-Printing": {
+        "PaperCut MF": false,
+        "PaperCut Hive": false,
+        "Printex": false,
+        "Dedicated-Print": false,
+        "Custom-Print": {
+            "CustomPrint0": false,
+            "CustomPrint1": false,
+            "CustomPrint2": false
+        }
     },
-  },
-  "Site-Services": {
-    "PupleMash" : false,
-    "Sophos" : false,
-    "Custom-Service": {
-      "CustomService0": false,
-      "CustomService1": false,
-      "CustomService2": false,
+    "Site-Services": {
+        "PupleMash": false,
+        "Sophos": false,
+        "Custom-Service": {
+            "CustomService0": false,
+            "CustomService1": false,
+            "CustomService2": false
+        }
     },
-  },
-  "Site-MDM": {
-    "Meraki": false,
-    "Intune": false,
-    "Google": false,
-    "Custom-MDM": {
-      "CustomMDM0": false,
-      "CustomMDM1": false,
-      "CustomMDM2": false,
+    "Site-MDM": {
+        "Meraki": false,
+        "Intune": false,
+        "Google": false,
+        "Custom-MDM": {
+            "CustomMDM0": false,
+            "CustomMDM1": false,
+            "CustomMDM2": false
+        }
     },
-  },
-  "Site-Storage": {
-    "Dedicated-Storage": false,
-    "SharePoint & OneDrive": false,
-    "Google Drive": false,
-    "Custom-Storage": {
-      "CustomStorage0": false,
-      "CustomStorage1": false,
-      "CustomStorage2": false,
+    "Site-Storage": {
+        "Dedicated-Storage": false,
+        "SharePoint & OneDrive": false,
+        "Google Drive": false,
+        "Custom-Storage": {
+            "CustomStorage0": false,
+            "CustomStorage1": false,
+            "CustomStorage2": false
+        }
     },
-  },
-  "Site-Backups": {
-    "Acronis": false,
-    "Veeam": false,
-    "Custom-Backups": {
-      "CustomBackups0": false,
-      "CustomBackups1": false,
-      "CustomBackups2": false,
+    "Site-Backups": {
+        "Acronis": false,
+        "Veeam": false,
+        "Custom-Backups": {
+            "CustomBackups0": false,
+            "CustomBackups1": false,
+            "CustomBackups2": false
+        }
     },
-  },
-  "Site-ISP": {
-    "SICT": false,
-    "EXA": false,
-    "RM": false,
-    "LGFL": false,
-    "HFL": false,
-    "Unmanaged": false,
-    "Custom-ISP": {
-      "CustomISP0": false,
-      "CustomISP1": false,
-      "CustomISP2": false,
-    },
-  },
+    "Site-ISP": {
+        "SICT": false,
+        "EXA": false,
+        "RM": false,
+        "LGFL": false,
+        "HFL": false,
+        "Unmanaged": false,
+        "Custom-ISP": {
+            "CustomISP0": false,
+            "CustomISP1": false,
+            "CustomISP2": false
+        }
+    }
 }
