@@ -1,2 +1,3 @@
-import data from 'https://tio-cooper.github.io/demo/demo.json' assert { type: 'json' };
-console.log(data);
+fetch('./data.json')
+    .then((response) => response.json())
+    .then((json) => console.log(json));
