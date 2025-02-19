@@ -1,0 +1,18 @@
+<link rel="stylesheet" type="text/css" href="https://tio-cooper.github.io/demo/style.css">
+<script type="module" src="https://tio-cooper.github.io/demo/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
+<body>
+<div class="techtag">
+	<b class="techtag-title">✨ TechTags ✨</b>
+		<div class="techtag-content">
+		<div>Core:
+          {{#each Site-Core}}
+          {{#if this}}
+          <p>{{@key}}</p>
+          {{/if}}
+          {{/each}}
+        </div>
+	</div>
+</div>
+</body>
