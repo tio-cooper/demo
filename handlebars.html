@@ -2,17 +2,60 @@
 <script type="module" src="https://tio-cooper.github.io/demo/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
 
+<head></head>
+
 <body>
 <div class="techtag">
 	<b class="techtag-title">✨ TechTags ✨</b>
 		<div class="techtag-content">
 		<div>Core:
-          {{#each Site-Core}}
-          {{#if this}}
-          <p>{{@key}}</p>
-          {{/if}}
-          {{/each}}
+            {{#each Site-Core}}
+            {{#if this}}
+            <p>{{@key}}</p>
+            {{/if}}
+            {{/each}}
         </div>
-	</div>
+        <div>Devices:
+            {{#each Site-Devices}}
+            {{#if this}}
+            <p>{{@key}}</p>
+            {{/if}}
+            {{/each}}
+        </div>
+        <div>Printing:
+            {{#each Site-Printing}}
+            {{#if this}}
+            <p>{{@key}}</p>
+            {{/if}}
+            {{/each}}
+        </div>
+        <div>Services:
+            {{#each Site-Services}}
+            {{#if this}}
+            <p>{{@key}}</p>
+            {{/if}}
+            {{/each}}
+        </div>
+        <div>MDM:
+            {{#each Site-MDM}}
+            {{#if this}}
+            <p>{{@key}}</p>
+            {{/if}}
+            {{/each}}
+        </div>
+        <div>Storage:
+            {{#each Site-Storage}}
+            {{#if this}}
+            <p>{{@key}}</p>
+            {{/if}}
+            {{/each}}
+        </div>
+        <div>ISP:
+            {{#each Site-ISP}}
+            {{#if this}}
+            <p>{{@key}}</p>
+            {{/if}}
+            {{/each}}
+        </div>
 </div>
 </body>
