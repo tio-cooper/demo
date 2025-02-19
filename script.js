@@ -6,9 +6,9 @@ fetch('https://tio-cooper.github.io/demo/demo.json')
     .then(contextThing = response.json());
 
 (function(){
-  var theScriptHTML = document.getElementById('techtag-content')
+  var theScriptHTML = document.getElementById('demo')
   var theTemplate = Handlebars.compile(theScriptHTML)
   // var contextObj = {SiteCore: false};
   var compiledData = theTemplate(contextThing)
-  document.getElementById('teachtag-content') = compiledData
+  document.getElementById('demo') = compiledData
 })
