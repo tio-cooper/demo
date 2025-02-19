@@ -16,11 +16,11 @@ $.getJSON('https://tio-cooper.github.io/demo/demo.json', function(data) {
 console.log(theDataV2)
 
 
-(function rewrite(){
+function rewrite(){
   var theScriptHTML = document.getElementById('demo')
   var theTemplate = Handlebars.compile(theScriptHTML)
   var compiledData = theTemplate(theDataV2)
   document.getElementById('demo') = compiledData
-})
+}
 
 rewrite();
