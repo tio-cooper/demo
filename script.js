@@ -1,27 +1,24 @@
-var theData = jQuery.getJSON('https://tio-cooper.github.io/demo/demo.json', function(data));
-console.log(theData);
-
-// let theDatav2;
-// fetch('https://tio-cooper.github.io/demo/demo.json').then(
-//   function(u){return u.json();}
-// ).then(
-//   function(json){
-//     theDatav2 = json
-//   }
-// )
-// console.log("V2");
-// console.log(theDatav2)
+// fetch('https://tio-cooper.github.io/demo/demo.json')
+//     .then((response) => response.json())
+//     .then((json) => console.log(json));
 
 
-(function rewrite(){
+// var theData = jQuery.getJSON('https://tio-cooper.github.io/demo/demo.json', function(data)
+// {
+  
+// } 
+
+let theDataV2
+$.getJSON('https://tio-cooper.github.io/demo/demo.json', function(data) {
+  theDataV2 = data;
+});
+
+console.log(theDataV2)
+
+
+(function(){
   var theScriptHTML = document.getElementById('demo')
   var theTemplate = Handlebars.compile(theScriptHTML)
-  var compiledData = theTemplate(theData)
+  var compiledData = theTemplate(theDataV2)
   document.getElementById('demo') = compiledData
 })
-
-console.log(theScriptHTML)
-console.log(theTemplate)
-console.log(compiledData)
-
-rewrite();
