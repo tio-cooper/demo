@@ -1,7 +1,7 @@
 fetch('https://tio-cooper.github.io/demo/demo.json')
     .then((response) => response.json())
     .then((json) => console.log(json))
-    .then(contextThing = response.json());
+    .then(contextThing = json);
 
 (function(){
   var theScriptHTML = document.getElementById('demo')
