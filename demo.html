@@ -31,6 +31,14 @@
 	</div>
 </script>
 
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+<script>
+  // compile the template
+  var template = Handlebars.compile("Handlebars <b>{{doesWhat}}</b>");
+  // execute the compiled template and print the output to the console
+  console.log(template({ doesWhat: "rocks!" }));
+</script>
+
 <div class="techtag-title">
 	<h1>Use the inspector to see the json imported for the demo</h1>
 </div>
