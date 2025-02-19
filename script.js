@@ -6,17 +6,17 @@ var theData = jQuery.getJSON('https://tio-cooper.github.io/demo/demo.json', func
 console.log("V1");
 console.log(theData);
 
-let theDatav2;
-fetch('https://tio-cooper.github.io/demo/demo.json').then(
-  function(u){return u.json();}
-).then(
-  function(json){
-    theDatav2 = json
-  }
-)
+// let theDatav2;
+// fetch('https://tio-cooper.github.io/demo/demo.json').then(
+//   function(u){return u.json();}
+// ).then(
+//   function(json){
+//     theDatav2 = json
+//   }
+// )
 
-console.log("V2");
-console.log(theDatav2)
+// console.log("V2");
+// console.log(theDatav2)
 
 
 (function(){
