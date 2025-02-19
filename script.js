@@ -6,5 +6,8 @@ fetch('https://tio-cooper.github.io/demo/demo.json')
 
 (function(){
   var theScriptHTML = document.getElementById('techtag-content')
-  var theTemplate = Handlebars
+  var theTemplate = Handlebars.compile(theScriptHTML)
+  var contextObj = {SiteCore: false};
+  var compiledData = theTemplate(contextObj)
+  document.getElementById('teachtag-content') = compiledData
 })
