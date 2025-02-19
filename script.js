@@ -20,4 +20,8 @@ console.log(theData);
   document.getElementById('demo') = compiledData
 })
 
+console.log(theScriptHTML)
+console.log(theTemplate)
+console.log(compiledData)
+
 rewrite();
