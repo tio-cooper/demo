@@ -9,7 +9,7 @@ let json_data = {};
   console.log("Access", json_data)
   var theScriptHTML = document.getElementById('demo').innerHTML;
   var theTemplate = Handlebars.compile(theScriptHTML);
-  var compiledData = theTemplate(data);
+  var compiledData = theTemplate(json_data);
 
   document.getElementById('techtag').innerHTML = compiledData;
 }());
