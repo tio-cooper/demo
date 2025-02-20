@@ -9,6 +9,7 @@ let data;
     console.log("Json", data)
   }
   getData()
+  setData()
 
   console.log("Access", data)
   var theScriptHTML = document.getElementById('demo').innerHTML;
