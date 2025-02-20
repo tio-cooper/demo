@@ -1,17 +1,17 @@
 <head>    
     <link rel="stylesheet" type="text/css" href="https://tio-cooper.github.io/demo/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script type="module" src="https://tio-cooper.github.io/demo/script.js"></script>
 </head>
 
+<html lang ="en">
 <body>
-    <div class="techtag">
+    <div id="techtag" class="techtag">
         <b class="techtag-title">✨ TechTags ✨</b>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script id="demo" type="text/x-handlebars-template">
-    <div class="techtag-content">
+    <div id="techtag-content" class="techtag-content">
         <div>Core:
             {{#each Site-Core}}
             {{#if this}}
@@ -63,4 +63,6 @@
         </div>
         </div>
     </script>
+    <script type="module" src="https://tio-cooper.github.io/demo/script.js"></script>
 </body>
+</html>
