@@ -8,6 +8,6 @@ console.log(theData);
 (function(){
   var theScriptHTML = document.getElementById('demo')
   var theTemplate = Handlebars.compile(theScriptHTML)
-  var compiledData = theTemplate(the)
+  var compiledData = theTemplate(theData)
   document.getElementById('demo') = compiledData
 }());
