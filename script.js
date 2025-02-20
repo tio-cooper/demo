@@ -8,7 +8,7 @@ console.log(theData);
 (function(){
   var theScriptHTML = document.getElementById('techtag-content')
   var theTemplate = Handlebars.compile(theScriptHTML)
-  var contextObj = {"site-core": {"Google": true}};
+  var contextObj = {SiteCore: {Google: true}};
   var compiledData = theTemplate(contextObj)
   document.getElementById('techtag') = compiledData
 }());
