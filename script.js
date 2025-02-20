@@ -3,6 +3,7 @@ let data;
   const getData = () => {
     $.ajax({ url: 'https://tio-cooper.github.io/demo/demo.json'})
     .then(data => console.log('Initial', data))
+    
     return data;
   }
 
@@ -13,7 +14,7 @@ let data;
   console.log("Access", data)
   var theScriptHTML = document.getElementById('demo').innerHTML;
   var theTemplate = Handlebars.compile(theScriptHTML);
-  var compiledData = theTemplate(placeholder);
+  var compiledData = theTemplate(thisthing);
 
   document.getElementById('techtag').innerHTML = compiledData;
 }());
