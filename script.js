@@ -1,4 +1,4 @@
-const json_data = {};
+var json_data = {};
 (function(){
   const getData = () => {
     $.ajax({ url: 'https://tio-cooper.github.io/demo/demo.json'})
