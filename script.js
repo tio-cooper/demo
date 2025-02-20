@@ -6,8 +6,8 @@ var theData = jQuery.getJSON('https://tio-cooper.github.io/demo/demo.json');
 console.log(theData);
 
 (function(){
-  var theScriptHTML = document.getElementById('demo')
+  var theScriptHTML = document.getElementById('techtag-content')
   var theTemplate = Handlebars.compile(theScriptHTML)
   var compiledData = theTemplate(theData)
-  document.getElementById('demo') = compiledData
+  document.getElementById('techtag') = compiledData
 }());
