@@ -11,5 +11,5 @@ console.log(theData);
   var contextObj = {SiteCore: {Google: "true"}};
   var compiledData = theTemplate(contextObj);
 
-  document.getElementById('techtag') = compiledData;
+  document.getElementById('techtag').innerHTML = compiledData;
 }());
