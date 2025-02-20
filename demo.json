@@ -2,7 +2,7 @@
     "SiteID": "demo",
     "SiteCore": {
         "Google": true,
-        "Microsoft": false,
+        "Microsoft": true,
         "Apple": false,
         "CustomCore0": false,
         "CustomCore1": false,
