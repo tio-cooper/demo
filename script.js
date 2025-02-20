@@ -1,9 +1,7 @@
 (function(){
   "use strict";
 
-  /**
-   * Fetch JSON data from the specified URL and process the Handlebars template.
-   */
+  //Fetch JSON data from the specified URL and process the Handlebars template.
   const fetchDataAndProcessTemplate = () => {
       // Perform AJAX GET request to fetch JSON data.
       $.ajax({
