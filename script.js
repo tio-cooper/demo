@@ -1,6 +1,3 @@
-
-
-
 (function(){
   var data;
   const getData = () => {
@@ -10,14 +7,14 @@
   const setData = async () => {
     data = await $.ajax({url: 'https://tio-cooper.github.io/demo/demo.json'})
     console.log("Json", data)
+    return data;
   }
   getData()
-  setData()
 
   console.log("Access", data)
   var theScriptHTML = document.getElementById('demo').innerHTML;
   var theTemplate = Handlebars.compile(theScriptHTML);
-  var compiledData = theTemplate(data);
+  var compiledData = theTemplate(setData());
 
   document.getElementById('techtag').innerHTML = compiledData;
 }());
