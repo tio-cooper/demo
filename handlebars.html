@@ -19,11 +19,7 @@
             {{/each}}
         </div>
         <div>Devices:
-            {{#each SiteDevices}}
-            {{#if this}}
-            <p>{{@key}}</p>
-            {{/if}}
-            {{/each}}
+            {{SiteDevices}}
         </div>
         <div>Printing:
             {{#each SitePrinting}}
