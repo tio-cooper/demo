@@ -1,4 +1,8 @@
+
+
+
 (function(){
+  var data;
   var theScriptHTML = document.getElementById('demo').innerHTML;
   var theTemplate = Handlebars.compile(theScriptHTML);
 
@@ -8,15 +12,13 @@
   }
   
   const setData = async () => {
-    const data = await $.ajax({url: 'https://tio-cooper.github.io/demo/demo.json'})
+    data = await $.ajax({url: 'https://tio-cooper.github.io/demo/demo.json'})
     console.log("Json", data)
   }
   
   getData()
   setData()
   
-  // var theData = jQuery.getJSON('https://tio-cooper.github.io/demo/demo.json');
-  // var contextObj = {SiteCore: {Google: "true"}};
   var compiledData = theTemplate(data);
   document.getElementById('techtag').innerHTML = compiledData;
 }());
