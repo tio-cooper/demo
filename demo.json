@@ -1,6 +1,6 @@
 {
-    "Site-ID": "demo",
-    "Site-Core": {
+    "SiteID": "demo",
+    "SiteCore": {
         "Google": true,
         "Microsoft": false,
         "Apple": false,
@@ -8,7 +8,7 @@
         "CustomCore1": false,
         "CustomCore2": false
     },
-    "Site-Devices": {
+    "SiteDevices": {
         "Windows": true,
         "ChromeOS": false,
         "MacOS": false,
@@ -16,23 +16,23 @@
         "CustomDevice1": false,
         "CustomDevice2": false
 },
-    "Site-Printing": {
+    "SitePrinting": {
         "PaperCut MF": true,
         "PaperCut Hive": false,
         "Printex": false,
-        "Dedicated-Print": false,
+        "DedicatedPrint": false,
         "CustomPrint0": false,
         "CustomPrint1": false,
         "CustomPrint2": false
 },
-    "Site-Services": {
+    "SiteServices": {
         "PupleMash": true,
         "Sophos": false,
         "CustomService0": false,
         "CustomService1": false,
         "CustomService2": false
 },
-    "Site-MDM": {
+    "SiteMDM": {
         "Meraki": true,
         "Intune": false,
         "Google": false,
@@ -40,22 +40,22 @@
         "CustomMDM1": false,
         "CustomMDM2": false
 },
-    "Site-Storage": {
-        "Dedicated-Storage": true,
+    "SiteStorage": {
+        "DedicatedStorage": true,
         "SharePoint & OneDrive": false,
         "Google Drive": false,
         "CustomStorage0": false,
         "CustomStorage1": false,
         "CustomStorage2": false
 },
-    "Site-Backups": {
+    "SiteBackups": {
         "Acronis": true,
         "Veeam": false,
         "CustomBackups0": false,
         "CustomBackups1": false,
         "CustomBackups2": false
 },
-    "Site-ISP": {
+    "SiteISP": {
         "SICT": true,
         "EXA": false,
         "RM": false,
