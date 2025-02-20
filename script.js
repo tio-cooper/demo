@@ -10,4 +10,4 @@ console.log(theData);
   var theTemplate = Handlebars.compile(theScriptHTML)
   var compiledData = theTemplate(the)
   document.getElementById('demo') = compiledData
-})
+}());

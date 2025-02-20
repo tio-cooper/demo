@@ -6,11 +6,13 @@
 </head>
 
 <body>
-    <script id="demo" type="text/x-handlebars-template">
-<div class="techtag">
-	<b class="techtag-title">✨ TechTags ✨</b>
-		<div class="techtag-content">
-		<div>Core:
+    <div class="techtag">
+        <b class="techtag-title">✨ TechTags ✨</b>
+    </div>
+
+    <script id="demo" type="text/x-handlebars-template"></script>
+    <div class="techtag-content">
+        <div>Core:
             {{#each Site-Core}}
             {{#if this}}
             <p>{{@key}}</p>
@@ -60,5 +62,4 @@
             {{/each}}
         </div>
     </script>
-</div>
 </body>
