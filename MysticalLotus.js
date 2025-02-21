@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Mystical Lotus
 // @namespace   Cooper Crafts
-// @match       https://staff.turniton.co.uk/schools/*
+// @match       https://placeholder/*
 // @grant       GM_addElement
 // @grant       GM_addStyle
 // @version     1.4
