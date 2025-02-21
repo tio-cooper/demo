@@ -1,12 +1,16 @@
 (function(){
   "use strict";
 
-  Handlebars.registerHelper('lineBreak', function(line, delim) {
-    return new Handlebars.SafeString(line.split(delim).join('<br/>'));
-  });
+
 
   //Fetch JSON data from the specified URL and process the Handlebars template.
   const fetchDataAndProcessTemplate = () => {
+    
+    // Registers Helper to set ";" to new line.
+    Handlebars.registerHelper('lineBreak', function(line, delim) {
+        return new Handlebars.SafeString(line.split(delim).join('<br/>'));
+      });
+
       // Perform AJAX GET request to fetch JSON data.
       $.ajax({
           url: 'https://tio-cooper.github.io/demo/demo.json', // URL of the JSON resource

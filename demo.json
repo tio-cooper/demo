@@ -1,7 +1,7 @@
 {
     "SiteID": "13743",
-    "SiteCore": "Microsoft<br>Apple<br>Google",
-    "SiteDevices": "Windows<br>ChromeOS",
+    "SiteCore": "Microsoft;Apple;Google",
+    "SiteDevices": "Windows;ChromeOS",
     "SitePrinting": "PaperCut MF;PaperCut Hive",
     "SiteServices": "PurpleMash;Sophos",
     "SiteMDM": "Google;Jamf;Meraki",
