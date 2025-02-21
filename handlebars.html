@@ -11,51 +11,27 @@
     <script id="demo" type="text/x-handlebars-template">
         <b class="techtag-title">✨ TechTags ✨</b>
         <div id="techtag-content" class="techtag-content">
-        <div>Core:
-            {{#each SiteCore}}
-            {{#if this}}
-            <p>{{@key}}</p>
-            {{/if}}
-            {{/each}}
-        </div>
-        <div>Devices:
-            {{lineBreak SiteDevices ';'}}
-        </div>
-        <div>Printing:
-            {{#each SitePrinting}}
-            {{#if this}}
-            <p>{{@key}}</p>
-            {{/if}}
-            {{/each}}
-        </div>
-        <div>Services:
-            {{#each SiteServices}}
-            {{#if this}}
-            <p>{{@key}}</p>
-            {{/if}}
-            {{/each}}
-        </div>
-        <div>MDM:
-            {{#each SiteMDM}}
-            {{#if this}}
-            <p>{{@key}}</p>
-            {{/if}}
-            {{/each}}
-        </div>
-        <div>Storage:
-            {{#each SiteStorage}}
-            {{#if this}}
-            <p>{{@key}}</p>
-            {{/if}}
-            {{/each}}
-        </div>
-        <div>ISP:
-            {{#each SiteISP}}
-            {{#if this}}
-            <p>{{@key}}</p>
-            {{/if}}
-            {{/each}}
-        </div>
+            <div>Core:
+                <div>{{lineBreak SiteCore ';'}}</div>
+            </div>
+            <div>Devices:
+                <div>{{lineBreak SiteDevices ';'}}</div>
+            </div>
+            <div>Printing:
+                <div>{{lineBreak SitePrinting ';'}}</div>
+            </div>
+            <div>Services:
+                <div>{{lineBreak SiteServices ';'}}</div>
+            </div>
+            <div>MDM:
+                <div>{{lineBreak SiteMDM ';'}}</div>
+            </div>
+            <div>Storage:
+                <div>{{lineBreak SiteStorage ';'}}</div>
+            </div>
+            <div>ISP:
+                <div>{{lineBreak SiteISP ';'}}</div>
+            </div>
         </div>
     </script>
     <script type="module" src="https://tio-cooper.github.io/demo/script.js"></script>
