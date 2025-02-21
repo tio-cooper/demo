@@ -1,0 +1,13 @@
+{
+    "SiteID": "2554",
+    "SiteCore": ["Microsoft","Google"],
+    "SiteDevices": ["Windows","ChromeOS"],
+    "SitePrinting": ["PaperCut MF","Handwritten Magic"],
+    "SiteServices": ["PurpleMash","Sophos"],
+    "SiteMDM": ["Meraki","Google","Jamf","Lightspeed","Intune","In-House"],
+    "SiteStorage": ["Dedicated Storage"],
+    "SiteBackups": ["Acronis"],
+    "SiteISP": ["SICT"],
+    "CreatedBy": "josh.cooper@turniton.co.uk",
+    "CreatedAt": "2/21/2025 4:53:52 PM"
+}
