@@ -1,6 +1,10 @@
 (function(){
   "use strict";
 
+  Handlebars.registerHelper('lineBreak', function(line, delim) {
+    return new Handlebars.SafeString(line.split(delim).join('<br/>'));
+  });
+
   //Fetch JSON data from the specified URL and process the Handlebars template.
   const fetchDataAndProcessTemplate = () => {
       // Perform AJAX GET request to fetch JSON data.
